@@ -64,6 +64,15 @@ const FilterGroup = props => {
       {renderTypes()}
       <hr className="line" />
       {renderRanges()}
+    <hr className="line" />
+    <label>
+        <input type="checkbox" name="location" value="Hyderabad" />
+        Hyderabad
+      </label>
+      <label>
+        <input type="checkbox" name="location" value="Delhi" />
+        Delhi
+      </label>
     </div>
   )
 }
